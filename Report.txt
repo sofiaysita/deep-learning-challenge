@@ -1,0 +1,23 @@
+Overview:
+
+Create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+Results:
+
+Data Preprocessing:
+- Used Pandas to read Charity Data csv
+- Dropped unnecessary columns
+- Determined unique values for columns >10 values
+- Picked a cutoff point to bin 
+- Used  Panda's "get_dummies()" to encode categorical variables.
+- Split data into training and testing datasets.
+- Scaled the training and testing features
+
+Compiling, Training, and Evaluating the Model:
+- Used 2 layers: 9 and 18 neurons with "relu" and 100 epochs
+
+Summary:
+
+With the first model I achieved an accuracy of 73%.
+
+After optimization I achieved an accuracy of 73.23%
